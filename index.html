@@ -34,14 +34,24 @@
     <div class="app">
       <div class="container">
         <header class="header">
-          <img
+          <!-- <img
             srcset="
               ./assets/images/omellete-1x.webp 1x,
               ./assets/images/omellete-2x.webp 2x
             "
             src="./assets/images/omellete-2x.webp"
             alt="banner img"
-            width="100%"
+          /> -->
+
+          <img
+            srcset="
+              ./assets/images/omellete-1x.webp 1x,
+              ./assets/images/omellete-2x.webp 2x
+            "
+            sizes="(max-width: 600px) 100vw, 800px"
+            src="./assets/images/omellete-1x.webp"
+            alt="Banner Image"
+            loading="lazy"
           />
         </header>
         <main>
