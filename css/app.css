@@ -1,0 +1,48 @@
+.header {
+  max-width: 46rem;
+  margin: 0 auto;
+}
+
+.header img {
+  width: 100%;
+}
+
+@media (min-width: 46em) {
+  .header {
+    padding: 2.5rem;
+    padding-bottom: 0;
+  }
+  .header img {
+    border-radius: 0.75rem;
+  }
+}
+
+main {
+  width: 100%;
+  margin-inline: auto;
+  max-width: 46rem;
+  padding: 2rem;
+}
+.box-1 {
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  background: var(--rose-white);
+  margin-block: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+  gap: 1rem;
+}
+
+.box-title {
+  color: var(--dark-raspberry);
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1;
+  align-self: stretch;
+}
+
+.box-list {
+  color: var(--wenge-brown);
+}
